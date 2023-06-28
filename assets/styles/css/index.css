@@ -946,7 +946,7 @@ body._lock {
   width: 70%;
 }
 
-.share-with-us__btn {
+.share-with-us__btn-open {
   width: 200px;
   height: 80px;
   border-radius: 10px;
@@ -966,6 +966,38 @@ body._lock {
   display: flex;
   flex-direction: column;
   margin-left: 5%;
+}
+
+.share-with-us__modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  width: 70vw;
+  margin: 50px 90px;
+  padding: 50px;
+  background-image: url(../../images/modalpicture.png);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+}
+.share-with-us__modal__fon {
+  width: 50vw;
+  margin-left: 50px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: white;
+  z-index: 99999;
+}
+.share-with-us__modal__button {
+  float: right;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  background: none;
+  color: inherit;
+  border: none;
+  color: #274C5B;
+  cursor: pointer;
 }
 
 .nutrients__title {
